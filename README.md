@@ -1,3 +1,6 @@
-
-![This is an image]
-(https://user-images.githubusercontent.com/122440318/212271654-38271bec-9dc0-4fc6-85c7-0140d9046416.png)
+<script async src="https://telegram.org/js/telegram-widget.js?21" data-telegram-login="samplebot" data-size="large" data-onauth="onTelegramAuth(user)" data-request-access="write"></script>
+<script type="text/javascript">
+  function onTelegramAuth(user) {
+    alert('Logged in as ' + user.first_name + ' ' + user.last_name + ' (' + user.id + (user.username ? ', @' + user.username : '') + ')');
+  }
+</script>
